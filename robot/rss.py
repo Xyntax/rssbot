@@ -47,7 +47,6 @@ class RssRobot:
             rss_history_list = []
             card_list = []
             feed = feedparser.parse(rss.feed)
-            print(feed.entries)
             for entry in feed.entries:
                 if entry.link not in post_url_list:
                     card_list.append(CardItem(title=f'{entry.title}',
