@@ -11,7 +11,7 @@ webhook_template = '''
 					[
 						{
 							"tag": "a",
-							"text": "$TITLE_TEXT",
+							"text": "$TITLE_TEXT ",
 							"href": "$LINK"
 						}
 					]
